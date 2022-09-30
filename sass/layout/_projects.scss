@@ -1,0 +1,45 @@
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  margin-top: 50px;
+  padding-left: 0px;
+
+  background-color: var(--secondari-color-background);
+}
+
+.project__card {
+  border: 1px solid #ececec;
+  padding: 20px 24px;
+
+  flex-basis: calc(100% - 60px / 3);
+}
+
+.project__title {
+  margin-bottom: 4px;
+
+  color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project__text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.89;
+}
+
+.project-shadow {
+  &:hover {
+    box-shadow: 1px 4px 6px rgb(0 0 0 / 16%), 0px 4px 4px rgb(0 0 0 / 6%),
+      0px 1px 1px rgb(0 0 0 / 12%);
+    transition: color var(--transition-dur-and-func);
+  }
+}
+
+.project__wrapper {
+  position: relative;
+  overflow: hidden;
+}

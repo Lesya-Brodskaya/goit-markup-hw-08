@@ -1,0 +1,144 @@
+.footer-box {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: #2f303a;
+
+  & .page-logo {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+}
+
+.adress {
+  padding-left: 0px;
+
+  & .adress__text {
+    color: var(--secondary-color-background);
+    background-color: #2f303a;
+    line-height: 1.71;
+  }
+}
+
+.adress__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.adress__link {
+  color: rgba(255, 255, 255, 0.6);
+
+  transition: color var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.network-title {
+  margin-bottom: 20px;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: start;
+  color: var(--secondary-color-background);
+  line-height: 16.41px;
+}
+
+.network-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  padding-left: 0px;
+}
+
+.network__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.network__icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--secondary-color-background);
+
+  .network__link:hover &,
+  .network__link:focus & {
+    fill: var(--secondary-color-background);
+  }
+}
+
+.footer-form__title {
+  margin-bottom: 20px;
+
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: start;
+  color: var(--secondary-color-background);
+  line-height: 16.41px;
+}
+
+.footer-form__input {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border-color: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  background-color: #2f303a;
+  color: var(--secondary-color-background);
+
+  transition: border-color var(--transition-dur-and-func);
+
+  &:hover {
+    border-color: #2196f3;
+  }
+}
+
+.footer-form__submit {
+  position: relative;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--secondary-color-background);
+  padding: 0;
+  border: 2px;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: color var(--transition-dur-and-func),
+  background-color var(--transition-dur-and-func);
+}
+
+.footer-form__icon {
+  margin-left: 10px;
+}
