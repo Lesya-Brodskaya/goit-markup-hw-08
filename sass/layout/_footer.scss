@@ -11,7 +11,6 @@
 
   & .page-logo {
     display: inline-block;
-    margin-bottom: 20px;
     
   }
 }
@@ -22,29 +21,27 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: baseline;
-    flex-direction: row;
+    gap: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    justify-content: space-between;
   }
 }
-
-.footer-contact {
-@media screen and (min-width: 768px) {
-    display: flex;
-    
-} 
-
-}
-
 .footer-box__contact {
+  text-align: center;
   margin-bottom: 60px;
   
-    @media screen and (min-width: 768px) {
-      margin-right: 165px;
-    }
+  @media screen and (min-width: 768px) {
+    margin-right: 165px;
+  }
   
-    @media screen and (min-width: 1200px) {
-      margin-bottom: 0;
-      margin-right: 70px;
-    }
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+    margin-bottom: 0;
+    margin-right: 70px;
+  }
 }
 
 .adress {
@@ -76,12 +73,14 @@
   margin-top: 60px;
 
   @media screen and (min-width: 1200px) {
+    text-align: start;
     margin-bottom: 0;
     margin-right: 93px;
   }
 }
 
 .network-title {
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
@@ -142,6 +141,7 @@
 
 .footer-form {
   width: 100%;
+  margin-top: 0;
 
   @media screen and (min-width: 768px) {
     width: 450px;
@@ -153,14 +153,9 @@
   }
 }
 
-.mailing-list {
-  @media screen and (min-width: 1200px) {
-    
-  }
-
-}
 
 .footer-form__title {
+  text-align: center;
   margin: 0;
   font-weight: 700;
   font-size: 14px;
@@ -171,7 +166,7 @@
 }
 
 .footer-form__email {
-  height: 50px;
+    height: 50px;
     width: 100%;
     outline: none;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -182,6 +177,7 @@
   
     @media screen and (min-width: 1200px) {
       margin-right: 12px;
+      width: 358px;
     }
   
     margin-bottom: 20px;
