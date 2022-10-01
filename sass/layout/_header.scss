@@ -98,12 +98,12 @@
         color: var(--accent-color);
       }
   
-      &.current {
+      /*&.current {
         color: var(--accent-color);
-      }
+      }*/
     }
   
-    .current {
+    /*.current {
       &::after {
         content: "";
         position: absolute;
@@ -118,7 +118,7 @@
       .site-nav__link & {
         color: var(--accent-color);
       }
-    }
+    }*/
   }
   
 @media screen and (min-width: 1200px) {
