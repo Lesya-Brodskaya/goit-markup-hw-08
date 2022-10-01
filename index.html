@@ -524,11 +524,11 @@
 
   <!--Підвал-->
   <footer class="page-footer">
-    <div class="container footer-box">
-      <div class="footer-box__contact">
-        <a class="page-logo link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
+    <div class="container footer-box" style="display:flex">
+      <div class="footer-box__contact" style="display: flex; flex-direction: column;">
+        <a class="page-logo link" style="margin-right: 0" href="./index.html">Web<span class="logo-footer">Studio</span></a>
         <adress>
-          <ul class="adress list">
+          <ul class="adress list" style="padding: 0;">
             <li class="adress__item">
               <a class="adress__text link" href="https://goo.gl/maps/DLpnZsbRSq8GDsMA8" target="_blank"
                 rel="noreferer noopener nofollow">м. Київ, пр-т Лесі Українки, 26</a>
@@ -544,7 +544,7 @@
       </div>
       <div class="network">
         <p class="network-title">Приєднуйтесь</p>
-        <ul class="network-list list">
+        <ul class="network-list list" style="padding: 0;">
           <li class="network__item">
             <a href="" class="network__link">
               <svg aria-label "іконка інстаграму" class="network__icon">
@@ -578,6 +578,7 @@
       <form class="footer-form">
         <div class="mailing-list">
         <p class="footer-form__title">Підпишіться на розсилку</p>
+        <div style="display: flex">
         <label class="class=" footer-form__email">
           <input type="email" placeholder="E-mail" class="footer-form__input"
             pattern="^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$" name="user_email" />
@@ -588,6 +589,7 @@
             <use href="./images/icons.svg#icon-send"></use>
           </svg>
         </button>
+        </div>
         </div>
       </form>
     </div>
@@ -657,4 +659,5 @@
   <script src="./js/menu.js"></script>
   <script src="./js/modal.js"></script>
 </body>
+
 </html>
