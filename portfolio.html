@@ -19,50 +19,92 @@
   </head>
   <body class="page">
 
+    
     <!--Шапка-->
     <header class="page-header">
-      <div class="container page-header__container">
-        <nav class="page-navigation">
-          <a class="page-logo link" href="./index.html"
-            >Web<span class="logo-header">Studio</span></a
-          >
-          <ul class="site-nave list">
-            <li class="site-nave__item">
-              <a class="site-nave__link link" href="./index.html">Студія</a>
-            </li>
-            <li class="site-nave__item">
-              <a class="site-nave__link current link" href="./portfolio.html"
-                >Портфоліо</a
-              >
-            </li>
-            <li class="site-nave__item">
-              <a class="site-nave__link link" href="#">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="auth-nav list">
-          <li class="auth-nav__item">
-            <div class="mailto">
-            <a class="auth-nav__link link" href="mailto:info@devstudio.com"><svg aria-label "іконка конверт" class="auth-nav__icon">
+    <div class="container page-header__container">
+      <nav class="page-navigation">
+        <a class="page-logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
+        <ul class="site-nav list">
+          <li class="site-nav__item">
+            <a class="site-nav__link current link" href="./index.html">Студія</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link link" href="#">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="auth-nav list">
+        <li class="auth-nav__item">
+          <div class="mailto">
+            <a class="auth-nav__link link" href="mailto:info@devstudio.com">
+              <svg aria-label "іконка конверту" class="auth-nav__icon">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>info@devstudio.com
-              </a>
-            </div>
-            <div class="telefon">
-           <a class="auth-nav__link link" href="tel:+380961111111"><svg aria-label "іконка телефон" class="auth-nav__icon">
+            </a>
+          </div>
+          <div class="telefon">
+            <a class="auth-nav__link link" href="tel:+380961111111">
+              <svg aria-label "іконка телефон" class="auth-nav__icon">
                 <use href="./images/icons.svg#icon-vector-1"></use>
               </svg>+38 096 111 11 11</a>
+          </div>
+        </li>
+      </ul>
+      <button type="button" class="mobile-btn" data-menu-open>
+        <svg class="mobile-btn__icon">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-menu is-open" data-menu>
+      <div class="container mobile-menu__container">
+        <button type="button" class="mobile-menu__btn" data-menu-close>
+          <svg class="mobile-menu__icon">
+            <use href="./images/icons.svg#icon-close-2"></use>
+          </svg>
+        </button>
+        <ul class="mobile-nav list">
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link current link" href="./index.html">Студія</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__link link" href="#">Контакти</a>
+          </li>
+        </ul>
+        <ul class=" contacts-mobile list">
+          <li class="contacts-mobile__item">
+            <div class="contacts-mobile__link">
+              <a class="contacts-mobile__telefon link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </div>
+            <div class="contacts-mobile__link">
+              <a class="contacts-mobile__mailto link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </div>
           </li>
         </ul>
-        <button type="button" class="mobile-btn">
-          <svg class="mobile-btn__icon">
-            <use href="./images/icons.svg#icon-burger"></use>
-          </svg>
-        </button>
+        <ul class="mobile-networks list">
+          <li class="mobile-networks__item">
+            <a class="mobile-networks__link link" href="">Instagram</a><span class="border"></span>
+          </li>
+          <li class="mobile-networks__item">
+            <a class="mobile-networks__link link" href="">Twitter</a><span class="border"></span>
+          </li>
+          <li class="mobile-networks__item">
+            <a class="mobile-networks__link link" href="">Facebook</a><span class="border"></span>
+          </li>
+          <li class="mobile-networks__item">
+            <a class="mobile-networks__link link" href="">Linkedin</a><span class="border"></span>
+          </li>
+        </ul>
       </div>
-      </div>
-    </header>
+    </div>
+  </header>
 
     <main>
       <!--Герой-->
@@ -580,6 +622,7 @@
         </form>
       </div>
     </footer>
-    <script src="js/mobile-menu.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="./js/modal.js"></script>
     </body>
   </html>
