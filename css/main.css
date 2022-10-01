@@ -957,7 +957,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   background-color: var(--accent-color);
 }
 
-.social__icon {
+.social__icon {  
   width: 20px;
   height: 20px;
   fill: #afb1b8;
