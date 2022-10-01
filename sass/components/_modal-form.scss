@@ -1,9 +1,11 @@
 .modal-form {
+  padding: 40px;
   display: flex;
   flex-direction: column;
 }
 
 .modal-form__title {
+  margin: 40px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.5;
@@ -125,15 +127,23 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  margin-bottom: 30px;
-  line-height: 1.71;
-  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
   
   @media screen and (min-width: 1200px) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+    line-height: 1.71;
+  }
+  
+   color: var(--primary-text-color);
+
+  /*margin-bottom: 30px;
+  line-height: 1.71;
+  color: var(--primary-text-color);*/
+  
+  @media screen and (min-width: 1200px) {
+    align-items: baseline;
+  }
 }
 
 .conditions {
