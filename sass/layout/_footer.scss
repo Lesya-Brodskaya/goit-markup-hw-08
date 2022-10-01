@@ -2,11 +2,11 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
-  text-align: center;
 
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    text-align: left;
+  @media screen and (max-width: 767px) {
+    .page-footer {
+      text-align: center;
+    }
   }
 
   & .page-logo {
