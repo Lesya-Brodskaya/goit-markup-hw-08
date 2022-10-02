@@ -1015,11 +1015,6 @@ body {
     width: 450px;
   }
 }
-@media screen and (min-width: 768px) and (min-width: 1200px) {
-  .card__photo {
-    width: 350px;
-  }
-}
 
 @media screen and (min-width: 768px) {
   .project__shadow {
