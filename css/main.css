@@ -115,9 +115,6 @@ body {
 .page-logo {
   font-weight: 700;
   margin-right: 88px;
-}
-
-.page-logo {
   color: var(--accent-color);
   font-size: 24px;
   line-height: 1.17;
@@ -131,17 +128,19 @@ body {
   color: var(--secondary-color-background);
 }
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
   .page-logo {
+
     font-weight: 400;
   }
 }
+
 @media screen and (min-width: 768px) {
   .page-logo {
     font-size: 26px;
     line-height: 1.19;
-  }
-}
+    }
+}*/
 @media screen and (max-width: 767px) {
   .mobile-menu {
     position: fixed;
@@ -830,7 +829,6 @@ body {
 }
 
 .team__item {
-  width: 100%;
   margin-bottom: 30px;
   padding-bottom: 24px;
   background: var(--secondary-color-background);
@@ -838,22 +836,18 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-/*@media screen and (min-width: 768px) {
-   width: calc((100% - 30px) / 2);
-   margin-bottom: 0;
- }
-
-@media screen and (min-width: 1200px) {
-   width: calc((100% - 90px) / 4);
-   padding: 30px;
- }*/
-.team-card {
-  margin-top: 30px;
+@media screen and (min-width: 768px) {
+  .team__card {
+    width: 354px;
+  }
 }
-
+@media screen and (min-width: 1200px) {
+  .team__card {
+    width: 100%;
+  }
+}
 .card__photo {
   display: block;
-  /* margin-bottom: 30px;*/
 }
 
 .team__title {
