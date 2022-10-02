@@ -1,3 +1,10 @@
+@media screen and (min-width: 1200px) {
+  .page-footer {
+    text-align: start;
+
+  }
+}
+
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -5,11 +12,17 @@
   text-align: center;
 }
 
-
 @media screen and (min-width: 1200px) {
 .page-footer {
   justify-content: center;
 }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-box {
+    text-align: start;
+
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -45,9 +58,6 @@
 
 @media screen and (min-width: 768px) {
   .footer__box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     gap: 60px;
     padding-left: 0px;
   }
