@@ -4,8 +4,9 @@
 }
 
 @media screen and (max-width: 480px) {
-.modal { width: 90%;
-}
+  .modal {
+    width: 90%;
+  }
 }
 
 .modal-form__title {
@@ -62,7 +63,7 @@
   &:focus {
     fill: var(--accent-color);
   }
- }
+}
 
 .modal-form__input:focus+.modal-form__icon {
   fill: var(--accent-color);
@@ -134,17 +135,17 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.2;
-  
+
   @media screen and (min-width: 1200px) {
     line-height: 1.71;
   }
-  
-   color: var(--primary-text-color);
+
+  color: var(--primary-text-color);
 
   /*margin-bottom: 30px;
   line-height: 1.71;
   color: var(--primary-text-color);*/
-  
+
   @media screen and (min-width: 1200px) {
     align-items: baseline;
   }

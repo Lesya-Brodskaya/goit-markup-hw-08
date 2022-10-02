@@ -13,11 +13,11 @@
     padding: 0;
     margin: 0;
   }
-    
+
   .mobile-btn__icon {
     width: 40px;
     height: 40px;
-  }  
+  }
 }
 
 .page-header {
@@ -43,21 +43,21 @@
 
   .page-header {
     padding-top: 25px;
-    padding-bottom:25px;
+    padding-bottom: 25px;
   }
 
   .auth-nav__link {
     display: inline-block;
     margin-left: auto;
-   
-    
+
+
     font-weight: 500;
     font-size: 12px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     background-color: var(--secondary-color-background);
-  }  
+  }
 
   .auth-nav__icon {
     margin-right: 8px;
@@ -66,48 +66,48 @@
     fill: var(--primary-text-color);
   }
 
-    .page-navigation {
-      display: flex;
-      align-items: center;
-    }
-  
-    .site-nav {
-      display: flex;
-      column-gap: 50px;
-      padding-left: 0px;
-    }
-  
-    .auth-nav {
-      display: flex;
-      align-items: center;
-      padding-left: 0px;
-    }
-  
-    .site-nav__link {
-      position: relative;
-  
-      color: var(--title-text-color);
-      background-color: var(--secondary-color-background);
-      line-height: 1.14;
-      letter-spacing: 0.02em;
-      font-weight: 500;
-  
-      transition: color var(--transition-dur-and-func);
-  
-      &:hover {
-        color: var(--accent-color);
-      }
-    }
+  .page-navigation {
+    display: flex;
+    align-items: center;
+  }
 
-    .site-link.current {
-     color: var(--accent-color);
-    }
+  .site-nav {
+    display: flex;
+    column-gap: 50px;
+    padding-left: 0px;
+  }
 
-    .site-link:hover {
+  .auth-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .site-nav__link {
+    position: relative;
+
+    color: var(--title-text-color);
+    background-color: var(--secondary-color-background);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+
+    transition: color var(--transition-dur-and-func);
+
+    &:hover {
+      color: var(--accent-color);
+    }
+  }
+
+  .site-link.current {
     color: var(--accent-color);
-    }
+  }
 
-    .current::after {
+  .site-link:hover {
+    color: var(--accent-color);
+  }
+
+  .current::after {
     content: "";
     position: absolute;
     left: 0;
@@ -116,9 +116,9 @@
     height: 4px;
     border-radius: 2px;
     background-color: var(--accent-color);
-    }
   }
-  
+}
+
 @media screen and (min-width: 1200px) {
   .auth-nav {
     display: flex;
@@ -131,7 +131,7 @@
     color: var(--primary-text-color);
     background-color: var(--secondary-color-background);
   }
-  
+
   .auth-nav__link {
     display: flex;
     align-items: center;
@@ -144,18 +144,18 @@
     letter-spacing: 0.02em;
     cursor: pointer;
     transition: color var(--transition-dur-and-func);
-  
-      &:hover,
-      &:focus {
-        color: var(--accent-color);
-      }
-  }
-  
-    .auth-nav__icon {
-      margin-right: 10px;
-      width: 16px;
-      height: 12px;
-      fill: var(--primary-text-color);
-      fill: currentColor;
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
     }
-  }  
+  }
+
+  .auth-nav__icon {
+    margin-right: 10px;
+    width: 16px;
+    height: 12px;
+    fill: var(--primary-text-color);
+    fill: currentColor;
+  }
+}
