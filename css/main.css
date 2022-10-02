@@ -38,12 +38,10 @@ ul {
 
 .link {
   text-decoration: none;
-  margin-right: 0
 }
 
 .list {
   list-style: none;
-  padding: 0;
 }
 
 img {
@@ -94,10 +92,6 @@ body {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-}
-
- footer__box{
-  display: flex;
 }
 
 @media screen and (min-width: 480px) {
@@ -1073,10 +1067,6 @@ body {
   line-height: 1.71;
 }
 
-.adress:list{
-  padding: 0;
-}
-
 .adress__link {
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--transition-dur-and-func);
@@ -1124,8 +1114,6 @@ body {
   column-gap: 10px;
 }
 
-
-
 .network__link {
   display: flex;
   align-items: center;
@@ -1160,17 +1148,8 @@ body {
   color: var(--secondary-color-background);
 }
 
-.footer-form_display{
-  display: flex;
-}
-
 .footer-box__contact{
   display: flex;
-  flex-direction: column;
-}
-
-.footer-box{
-  display:flex;
 }
 
 .footer-form__submit {
@@ -1244,4 +1223,5 @@ body {
   width: 24px;
   height: 24px;
   fill: var(--secondary-color-background);
-}
+  margin-left: 10px;
+}/*# sourceMappingURL=main.css.map */

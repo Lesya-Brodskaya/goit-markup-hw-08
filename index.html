@@ -523,82 +523,73 @@
   </main>
 
   <!--Підвал-->
+ 
   <footer class="page-footer">
-    <div class="container footer-box">
-      <div class="footer-box__contact">
-        <a class="page-logo link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
-        <adress>
-          <ul class="adress list">
-            <li class="adress__item">
-              <a class="adress__text link" href="https://goo.gl/maps/DLpnZsbRSq8GDsMA8" target="_blank"
-                rel="noreferer noopener nofollow">м. Київ, пр-т Лесі Українки, 26</a>
+      <div class="container footer-box">
+        <div>
+          <a class="page-logo link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
+          <adress>
+            <ul class="adress list">
+              <li class="adress__item">
+                <a class="adress__text link" href="https://goo.gl/maps/DLpnZsbRSq8GDsMA8" target="_blank"
+                  rel="noreferer noopener nofollow">м. Київ, пр-т Лесі Українки, 26</a>
+              </li>
+              <li class="adress__item">
+                <a class="adress__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="adress__item">
+                <a class="adress__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </adress>
+        </div>
+        <div class="network">
+          <p class="network-title">Приєднуйтесь</p>
+          <ul class="network-list list">
+            <li class="network__item">
+              <a href="" class="network__link">
+                <svg aria-label "іконка інстаграму" class="network__icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="adress__item">
-              <a class="adress__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="network__item">
+              <a href="" class="network__link">
+                <svg aria-label "іконка твітеру" class="network__icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="adress__item">
-              <a class="adress__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="network__item">
+              <a href="" class="network__link">
+                <svg aria-label "іконка фейсбуку" class="network__icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="network__item">
+              <a href="" class="network__link">
+                <svg aria-label "іконка лінкедін" class="network__icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </adress>
-      </div>
-      <div class="network">
-        <p class="network-title">Приєднуйтесь</p>
-        <ul class="network-list list">
-          <li class="network__item">
-            <a href="" class="network__link">
-              <svg aria-label "іконка інстаграму" class="network__icon">
-                <use href="./images/icon-instagram.svg"></use>
-              </svg> 
-              <!--<object data="./images/icon-instagram.svg" class="network__icon" aria-label="іконка інстаграму"></object>
-            </a>-->
-          </li>
-          <li class="network__item">
-            <a href="" class="network__link">
-              <svg aria-label "іконка твітеру" class="network__icon">
-                <use href="./images/icon-twitter.svg"></use>
-              </svg>
-              <!--<object data="./images/icon-twitter.svg" class="network__icon" aria-label="іконка твітеру"></object>
-            </a>-->
-          </li>
-          <li class="network__item">
-            <a href="" class="network__link">
-              <svg aria-label "іконка фейсбуку" class="network__icon">
-                <use href="./images/icon-facebook.svg"></use>
-              </svg> 
-              <!--<object data="./images/icon-facebook.svg" class="network__icon" aria-label="іконка фейсбуку"></object>
-            </a>-->
-          </li>
-          <li class="network__item">
-            <a href="" class="network__link">
-              <svg aria-label "іконка лінкедін" class="network__icon">
-                <use href="./images/icon-linkedin.svg"></use>
-              </svg>
-              <!--<object data="./images/icon-linkedin.svg" class="network__icon" aria-label="іконка лінкедін"></object>
-            </a>-->
-          </li>
-        </ul>
-      </div>
-      <form class="footer-form">
-        <div class="mailing-list">
-        <p class="footer-form__title">Підпишіться на розсилку</p>
-        <div class="footer-form_display">
-        <label class="class= footer-form__email">
+        </div>
+        <form class="footer-form">
+          <p class="footer-form__title">Підпишіться на розсилку</p>
+        <label class="class=" footer-form__email">
           <input type="email" placeholder="E-mail" class="footer-form__input"
-            pattern="^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$" name="user_email" />
-        </label>
-        <button type="submit" class="footer-form__submit">
-          <span class="footer-submit__text">Підписатися</span>
-          <svg class="footer-form__icon">
-            <use href="./images/icon_send.svg"></use>
+          pattern="^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$" name="user_email" />
+          <button type="submit" class="footer-form__submit">Підписатися
+          <svg class="footer-form__icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-send"></use>
           </svg>
-          <!--<object data="./images/icon_send.svg" class="footer-form__icon"></object>-->
-        </button>
-        </div>
-        </div>
-      </form>
-    </div>
-  </footer>
+          </button>
+        </label>
+        </form>
+      </div>
+    </footer>
 
   <!--Модальна форма-->
   <div class="backdrop is-hidden" data-modal>
