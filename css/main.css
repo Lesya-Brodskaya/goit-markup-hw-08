@@ -843,7 +843,7 @@ body {
 
 .card__photo {
   display: block;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px;*/
 }
 
 .team__title {
