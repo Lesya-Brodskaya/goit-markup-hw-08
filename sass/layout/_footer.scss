@@ -2,6 +2,14 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 1200px) {
+.page-footer {
+  justify-content: center;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -67,6 +75,7 @@
 .network {
   margin-top: 60px;
   display: block;
+  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -121,12 +130,6 @@
 .network__link:hover,
 .network__link:focus {
   background-color: var(--accent-color);
-}
-
-@media screen and (max-width: 1199px) {
-  .footer-form {
-    margin-top: 60px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
