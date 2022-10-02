@@ -1,11 +1,14 @@
 .modal-form {
-  padding: 40px;
   display: flex;
   flex-direction: column;
 }
 
+@media screen and (max-width: 480px) {
+.modal { width: 90%;
+}
+}
+
 .modal-form__title {
-  margin: 40px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.5;
@@ -126,7 +129,8 @@
 .modal-form-check__field {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
+  margin-bottom: 30px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.2;
