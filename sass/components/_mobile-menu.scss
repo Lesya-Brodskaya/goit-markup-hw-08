@@ -22,6 +22,8 @@
     }
 
     .mobile-menu__container {
+      
+       height: 100%;
        display: flex;
        flex-direction: column;
        position: relative;
@@ -91,10 +93,6 @@
         margin-top: 302px;*/
     }
 
-    .contacts-mobile__item {
-        margin-bottom: 64px;
-    }
-
     .contacts-mobile__link:not(:last-child) {
         margin-bottom: 32px;
     }
@@ -111,6 +109,7 @@
         font-weight: 500;
         font-size: 24px;
         line-height: 1.17;
+
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
     }
@@ -118,6 +117,8 @@
     .mobile-networks {
         display: flex;
         padding-left: 0px;
+        flex-wrap: wrap;
+        row-gap: 10px;
     }
 
     .mobile-networks__link {
