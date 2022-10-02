@@ -61,9 +61,9 @@
   }
  }
 
-.modal-form__input:focus+& {
-   fill: var(--accent-color);
- }
+.modal-form__input:focus+.modal-form__icon {
+  fill: var(--accent-color);
+}
 
 .modal-form__wrapper {
   position: relative;
