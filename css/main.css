@@ -1079,11 +1079,6 @@ body {
   transform: translateY(0);
 }
 
-@media screen and (min-width: 1200px) {
-  .page-footer {
-    text-align: start;
-  }
-}
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1093,19 +1088,13 @@ body {
 
 @media screen and (min-width: 1200px) {
   .page-footer {
-    justify-content: center;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footer-box {
-    text-align: start;
+    text-align: left;
   }
 }
 @media screen and (min-width: 768px) {
   .footer-box {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
     justify-content: center;
     gap: 60px;
     column-gap: 165px;
@@ -1114,6 +1103,9 @@ body {
 @media screen and (min-width: 1200px) {
   .footer-box {
     flex-wrap: nowrap;
+    justify-content: start;
+    gap: 0;
+    column-gap: 0;
   }
 }
 .page-footer .page-logo {
@@ -1126,7 +1118,6 @@ body {
   .footer__box {
     display: flex;
     align-items: baseline;
-    text-align: left;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1216,6 +1207,9 @@ body {
   .footer-form {
     margin-left: auto;
   }
+  .footer-form__email {
+    display: flex;
+  }
 }
 .footer-form__title {
   font-weight: 700;
@@ -1300,10 +1294,4 @@ body {
   .footer-form__input {
     width: 358px;
   }
-}
-.footer-form__icon {
-  width: 24px;
-  height: 24px;
-  fill: var(--secondary-color-background);
-  margin-left: 10px;
 }/*# sourceMappingURL=main.css.map */
