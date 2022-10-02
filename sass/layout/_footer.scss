@@ -50,14 +50,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .page-footer {
+  .footer-box{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
     gap: 60px;
     column-gap: 165px;
   }
-
-
 }
 
 @media screen and (max-width: 1200px) {
