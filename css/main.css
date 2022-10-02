@@ -162,9 +162,11 @@ body {
     pointer-events: auto;
   }
   .mobile-menu__container {
+    display: flex;
+    flex-direction: column;
     position: relative;
     padding-left: 40px;
-    padding-top: 10px;
+    padding-top: 48px;
     padding-bottom: 48px;
   }
   .mobile-menu__btn {
@@ -187,7 +189,9 @@ body {
     cursor: pointer;
   }
   .mobile-nav {
-    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
     padding-left: 0px;
   }
   .mobile-nav__link {
@@ -203,12 +207,17 @@ body {
   .mobile-nav__link:hover, .mobile-nav__link.current {
     color: var(--accent-color);
   }
-  .mobile-nav__item:not(:last-child) {
-    margin-bottom: 32px;
-  }
+  /*.mobile-nav__item:not(:last-child) {
+      margin-bottom: 32px;
+  }*/
   .contacts-mobile {
-    padding-left: 0px;
-    margin-top: 302px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 64px;
+    margin-top: auto;
+    /* padding-left: 0px;
+     margin-top: 302px;*/
   }
   .contacts-mobile__item {
     margin-bottom: 64px;
@@ -1089,15 +1098,16 @@ body {
   transform: translateY(0);
 }
 
-.page-footer {
+/*.page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
 }
 
-@media screen and (min-width: 1200px) {
-  .page-footer,
+
+.page-footer, 
 .adress {
+  @media screen and (min-width: 1200px) {
     text-align: center;
   }
 }
@@ -1106,12 +1116,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-}
-@media screen and (max-width: 767px) {
-  .footer-box {
-    flex-direction: column;
-    row-gap: 60px;
-  }
+
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      row-gap: 60px;
+    }
 }
 
 .adress__item {
@@ -1123,14 +1132,13 @@ body {
   margin-bottom: 9px;
 }
 
-@media screen and (min-width: 1200px) {
-  .footer-box__adress {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/*.page-footer {
+.footer-box__adress {
+  @media screen and (min-width: 1200px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+}*/
+.page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -1141,13 +1149,11 @@ body {
     text-align: center;
   }
 }
-
 .page-footer .page-logo {
   margin-right: 0px;
   display: block;
   margin-bottom: 20px;
 }
-
 
 @media screen and (min-width: 768px) {
   .footer__box {
@@ -1158,7 +1164,6 @@ body {
     padding-left: 0px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .footer__box {
     display: flex;
@@ -1166,7 +1171,6 @@ body {
     text-align: left;
   }
 }
-
 .adress__item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -1196,13 +1200,11 @@ body {
     margin-top: 0;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .network {
     margin-left: 70px;
   }
 }
-
 .network-title {
   font-weight: 700;
   font-size: 14px;
@@ -1250,13 +1252,11 @@ body {
     margin-top: 60px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .footer-form {
     margin-left: auto;
   }
 }
-
 .footer-form__title {
   font-weight: 700;
   font-size: 14px;
@@ -1278,6 +1278,7 @@ body {
   height: 50px;
   margin: 0 auto;
   margin-top: 20px;
+  color: var(--secondary-color-background);
   background-color: var(--accent-color);
   border-radius: 4px;
   border: 0px transparent solid;
@@ -1301,7 +1302,6 @@ body {
     margin-left: 12px;
   }
 }
-
 .footer-submit__text {
   color: var(--secondary-color-background);
   font-weight: 700;
@@ -1313,8 +1313,7 @@ body {
 }
 
 .footer-form__input {
-  display: flex;
-  width: 100%;
+  width: 70%;
   height: 50px;
   outline: none;
   border-radius: 4px;
@@ -1324,7 +1323,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--secondary-color-background);
   transition: border var(--transition-dur-and-func);
 }
 
@@ -1337,16 +1336,14 @@ body {
     width: 450px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .footer-form__input {
     width: 358px;
   }
 }
-
 .footer-form__icon {
   width: 24px;
   height: 24px;
   fill: var(--secondary-color-background);
   margin-left: 10px;
-}*//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
