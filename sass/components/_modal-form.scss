@@ -142,18 +142,13 @@
 
   color: var(--primary-text-color);
 
-  /*margin-bottom: 30px;
-  line-height: 1.71;
-  color: var(--primary-text-color);*/
-
   @media screen and (min-width: 1200px) {
     align-items: baseline;
   }
 }
-
 .conditions {
-  color: #2196f3;
-}
+   color: #2196F3;
+ }
 
 .modal-form__submit {
   min-width: 200px;
